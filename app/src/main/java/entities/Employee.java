@@ -29,6 +29,11 @@ public class Employee implements Comparable<Employee>{
 
     @Override
     public int compareTo(Employee other) {
+        //retornar do maior salário para o menor
+        //return -salary.compareTo(other.getSalary());
+        //retortnar no menor parar o maior
+        //return salary.compareTo(other.getSalary());
+        // retonar em ordem alfabética (nome)
         return name.compareTo(other.getName());
     }
     
